@@ -204,15 +204,14 @@
   .profile-bottom-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 16px 0;
+   row-gap: 16px;
   }
   
   .profile-info {
-    width: 50%;
+    max-width: 100%;
     display: flex;
     gap: 14px;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
   }
   
@@ -223,6 +222,7 @@
   
   .profile-info p {
     overflow-wrap: break-word;
+    margin: 0;
   }
   
   .profile-info a {
